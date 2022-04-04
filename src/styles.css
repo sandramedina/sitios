@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+}
+#flexs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+p.grande {
+  color: red;
+  font-size: 34px;
+  font-style: oblique;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: blue;
+}
+p {
+  color: blue;
+}
+
+.cafe {
+  background-color: turquoise;
+}
+.cafe:hover {
+  background-color: yellow;
+  color: black;
+}
+h2 + h3 {
+  background-color: violet;
+}
+.titulo {
+  color: rgba(245, 245, 245, 0.781);
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  text-align: center;
+}
+h1 {
+  background-color: black;
+}
